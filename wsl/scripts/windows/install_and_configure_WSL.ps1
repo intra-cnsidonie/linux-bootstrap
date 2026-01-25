@@ -106,7 +106,8 @@ try {
         
         # Set the default user for this distribution
         Write-Host "Setting wsl.conf parameters with $username as the default user..."
-        wsl -d $wslInstanceName -u root bash -c "echo '[boot]' > /etc/wsl.conf && echo 'systemd=true' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[user]' >> /etc/wsl.conf && echo 'default=$username' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[automount]' >> /etc/wsl.conf && echo 'enabled=true' >> /etc/wsl.conf && echo 'options=metadata,umask=22,fmask=11' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[network]' >> /etc/wsl.conf && echo 'hostname=$wslInstanceName' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[interop]' >> /etc/wsl.conf && echo 'enabled=true' >> /etc/wsl.conf && echo 'appendWindowsPath=true' >> /etc/wsl.conf"
+        $hostname = $wslInstanceName.Replace(".", "-")
+        wsl -d $wslInstanceName -u root bash -c "echo '[boot]' > /etc/wsl.conf && echo 'systemd=true' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[user]' >> /etc/wsl.conf && echo 'default=$username' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[automount]' >> /etc/wsl.conf && echo 'enabled=true' >> /etc/wsl.conf && echo 'options=metadata,umask=22,fmask=11' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[network]' >> /etc/wsl.conf && echo 'hostname=$hostname' >> /etc/wsl.conf && echo '' >> /etc/wsl.conf && echo '[interop]' >> /etc/wsl.conf && echo 'enabled=true' >> /etc/wsl.conf && echo 'appendWindowsPath=true' >> /etc/wsl.conf"
         
         # Restart the distribution to apply changes
         Write-Host "Restarting the distribution..."
