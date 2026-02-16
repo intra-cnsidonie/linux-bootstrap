@@ -1,0 +1,14 @@
+[2026-02-14 23:59:55] [STEP] ##### Installation de zsh #####
+[2026-02-14 23:59:55] [INFO]      Installation de zsh... 
+[2026-02-14 23:59:59] [OK]      Installation de zsh OK 
+[2026-02-14 23:59:59] [STEP] ##### Configuration de zsh #####
+[2026-02-15 00:00:10] [MSG]      Installation de Powerlevel10k... 
+[2026-02-15 00:00:10] [MSG]      Installation de Oh My Zsh... 
+[2026-02-15 00:00:10] [MSG]      Oh My Zsh installé avec succès. 
+[2026-02-15 00:00:11] [MSG]      Powerlevel10k installé et configuré. 
+[2026-02-15 00:00:11] [MSG]      Installation de Zinit... 
+[2026-02-15 00:00:12] [MSG]      Zinit installé avec succès. 
+[2026-02-15 00:00:12] [MSG]      Configuration de zsh terminée. 
+[2026-02-15 00:00:12] [MSG]      Redémarrez votre shell pour appliquer les changements : exec zsh 
+[2026-02-15 00:00:12] [STEP] ##### Configuration du hostname via /etc/wsl.conf #####
+[2026-02-15 00:00:12] [MSG]      Hostname déjà configuré correctement: Ubuntu-24-04-test 

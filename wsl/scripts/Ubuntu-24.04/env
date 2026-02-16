@@ -1,0 +1,10 @@
+# Gestion des chemins et variables globales
+WORKING_DIR=$HOME/wsl_install_src/linux-bootstrap/wsl/scripts/Ubuntu-24.04
+COMMON_LIBS_PATH=${WORKING_DIR}/common_libs
+LOG_FILE=${WORKING_DIR}/logs/setup_$(date +%Y%m%d%H%M%S).log
+ERROR_LOG="${WORKING_DIR}/logs/error.log"
+
+# Gestion du contexte d'exécution
+IS_PROXY_NEEDED=false
+
+# Gestion de la charte graphique personnalisée

@@ -1,0 +1,7 @@
+From https://github.com/ohmyzsh/ohmyzsh
+ * [new branch]      master     -> origin/master
+ * [new branch]      update/plugins/history-substring-search/14c8d2e0 -> origin/update/plugins/history-substring-search/14c8d2e0
+ * [new branch]      update/plugins/kube-ps1/9b41c091 -> origin/update/plugins/kube-ps1/9b41c091
+Already on 'master'
+Cloning into '/home/nicolas/.oh-my-zsh/custom/themes/powerlevel10k'...
+Cloning into '/home/nicolas/.local/share/zinit/zinit.git'...

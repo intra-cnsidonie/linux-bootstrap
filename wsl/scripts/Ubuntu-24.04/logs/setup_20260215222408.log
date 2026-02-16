@@ -1,0 +1,6 @@
+[2026-02-15 22:24:14] [STEP] ##### Installation de jq #####
+[2026-02-15 22:24:17] [MSG]      Installation de jq 
+[2026-02-15 22:24:17] [MSG]      Sourcing des fonctions dédiées à jq 
+[2026-02-15 22:24:17] [MSG]      Recherche des dépendances 
+[2026-02-15 22:24:17] [MSG]      Exécution de install.sh 
+[2026-02-15 22:24:17] [MSG]      install.sh terminé avec succès (code 0) 

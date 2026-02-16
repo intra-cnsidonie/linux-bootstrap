@@ -1,0 +1,10 @@
+[2026-02-14 23:59:06] [STEP] ##### Installation de zsh #####
+[2026-02-14 23:59:06] [INFO]      Installation de zsh... 
+[2026-02-14 23:59:10] [OK]      Installation de zsh OK 
+[2026-02-14 23:59:10] [STEP] ##### Configuration de zsh #####
+[2026-02-14 23:59:15] [MSG]      Aucune configuration sélectionnée. 
+[2026-02-14 23:59:15] [STEP] ##### Configuration du hostname via /etc/wsl.conf #####
+[2026-02-14 23:59:15] [MSG]      Mise à jour du hostname: Ubuntu-24.04-test -> Ubuntu-24-04-test 
+[2026-02-14 23:59:15] [MSG]      Hostname mis à jour: Ubuntu-24-04-test 
+[2026-02-14 23:59:15] [MSG]      Note: Redémarrez WSL pour que le changement de hostname prenne effet 
+[2026-02-14 23:59:15] [MSG]      Commande: wsl --terminate Ubuntu-24.04-test puis relancer 
